@@ -8,20 +8,19 @@ export const About = forwardRef(function About({}, ref) {
       <div className={styles.info}>
         <img src="/img/Freelance.webp" alt="dev" />
         <div>
-          <h2>ABOUT ME</h2>
-          <h3>A dedicated Front-end Developer from Russia📍</h3>
+          <h2>Обо мне</h2>
+          <h3>Квалифициированный фронтенд-разработчик из России📍</h3>
           <p>
-            As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS,
-            JavaScript, React, and SCSS. I excel in designing and maintaining responsive websites
-            that offer a smooth user experience. My expertise lies in crafting dynamic, engaging
-            interfaces through writing clean and optimized code and utilizing cutting-edge
-            development tools and techniques. I am also a team player who thrives in collaborating
-            with cross-functional teams to produce outstanding web applications.
+            Как младший разработчик интерфейса, я обладаю впечатляющим арсеналом навыков в HTML, CSS, JavaScript, React и SCSS. Я преуспеваю в
+            проектировании и поддержке адаптивных веб-сайтов, которые предлагают плавный пользовательский интерфейс. Мой опыт заключается в создании
+            динамичных, привлекательных интерфейсов путем написания чистого и оптимизированного кода и использования передовых инструментов и методов
+            разработки. Я также командный игрок, который преуспевает в сотрудничестве с кросс-функциональными командами для создания выдающихся
+            веб-приложений.
           </p>
         </div>
       </div>
       <div className={styles.svgs}>
-        <span>Tech Stack</span>
+        <span>Стек</span>
         <img src="/img/html.svg" alt="tech" />
         <img src="/img/css.svg" alt="tech" />
         <img src="/img/js.svg" alt="tech" />

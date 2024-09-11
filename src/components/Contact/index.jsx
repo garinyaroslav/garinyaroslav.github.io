@@ -4,8 +4,8 @@ export const Contact = () => {
   return (
     <div className={styles.root}>
       <div>
-        <h2>CONTACT</h2>
-        <p>Don&apos;t be shy! Hit me up! 👇</p>
+        <h2>Контакты</h2>
+        <p>Не стесняйся, свяжись со мной👇</p>
         <div>
           <div className={styles.contact}>
             <div className={styles.icon}>

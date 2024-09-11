@@ -4,11 +4,10 @@ export const Home = ({ handleClick }) => {
   return (
     <div className={styles.root}>
       <div className={styles.about}>
-        Hello, I&apos;m <span>Garin Yaroslav</span>.<br />
-        I&apos;m a front-end developer.
+        Привет, я <span>Гарин Ярослав</span>.<br />Я фронтенд разработчик.
       </div>
       <div onClick={handleClick} className={styles.button}>
-        view my work
+        посмотерть мои проекты
         <img src="/img/arrow.svg" alt="arrow" />
       </div>
     </div>
